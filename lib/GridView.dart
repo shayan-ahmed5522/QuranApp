@@ -6,7 +6,6 @@ class gridView extends StatefulWidget {
   @override
   State<gridView> createState() => _gridViewState();
 }
-
 class _gridViewState extends State<gridView> {
 List<String> itemList = List.generate(20, (index) => 'item ${index+1}');
 List<String> tempList = [];
