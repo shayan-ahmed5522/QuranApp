@@ -8,7 +8,6 @@ class ListViewScreen extends StatefulWidget {
 }
 
 class _ListViewScreenState extends State<ListViewScreen> {
-
   List<Surah> surahList = List.generate(114, (index) => Surah(index+1));
   List<Surah> favrouteSurah = [];
 
